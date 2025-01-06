@@ -1,0 +1,14 @@
+{
+  "name": "mmx-cli",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "bin": {
+    "mmx": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavlo Moroz",
+  "license": "ISC",
+  "description": "Miva Merchant Flex Components CLI"
+}
