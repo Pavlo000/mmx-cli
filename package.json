@@ -2,6 +2,7 @@
   "name": "mmx-cli",
   "version": "1.0.0",
   "main": "bin/index.js",
+  "type": "module",
   "bin": {
     "mmx": "./bin/index.js"
   },
@@ -10,5 +11,10 @@
   },
   "author": "Pavlo Moroz",
   "license": "ISC",
-  "description": "Miva Merchant Flex Components CLI"
+  "description": "Miva Merchant Flex Components CLI",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.0.0"
+  }
 }
